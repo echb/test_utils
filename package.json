@@ -3,10 +3,17 @@
   "version": "1.0.0",
   "description": "",
   "main": "flat_array.js",
+  "type": "commonjs",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest --coverage"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^28.1.0"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  }
 }
